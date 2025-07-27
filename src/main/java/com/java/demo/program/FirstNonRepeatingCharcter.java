@@ -1,0 +1,14 @@
+package com.java.demo.program;
+
+import java.util.Arrays;
+
+public class FirstNonRepeatingCharcter {
+
+    public static <Char> void main(String[] arg){
+       String s="oello java ohello";
+
+        String fc = Arrays.stream(s.split("")).filter(c->s.indexOf(c)==s.lastIndexOf(c)).findFirst().get();
+        System.out.println(fc);
+
+
+}}

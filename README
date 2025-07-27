@@ -1,0 +1,9 @@
+
+future.get()                    --->    blocks until the async task completes and returns the result
+thenApply().                    --->    processes the result of the async task when it completes
+exceptionally()                 --->    handles any exceptions that occur during the async task
+thenAccept()                    --->    consumes the result of the async task without returning a new value
+runAsync()                      --->    runs a task asynchronously without returning a result
+supplyAsync()                   --->    runs a task asynchronously and returns a result    
+
+
